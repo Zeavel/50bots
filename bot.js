@@ -224,7 +224,7 @@ if(message.channel.id === "443142211983638531")//news
         if(message.embeds[0] === undefined)
         {
             client9.guilds.get("525621262102298647").channels.get("525626480177315860").send(message.content)
-        
+        }
         else
         {
             var embed2 = new Discord.MessageEmbed(message.embeds[0])
