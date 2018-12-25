@@ -224,7 +224,7 @@ if(message.channel.id === "443142211983638531")//news
         if(message.embeds[0] === undefined)
         {
             client9.guilds.get("525621262102298647").channels.get("525626480177315860").send(message.content)
-        }
+        
         else
         {
             var embed2 = new Discord.MessageEmbed(message.embeds[0])
@@ -233,15 +233,10 @@ if(message.channel.id === "443142211983638531")//news
      }
      if(message.channel.id==="443846217206726666")//twitter
      {
-        if(message.embeds[0] === undefined)
-        {
+        
             client10.guilds.get("525621262102298647").channels.get("525625778612994057").send(message.content)
-        }
-        else
-        {
-            var embed2 = new Discord.MessageEmbed(message.embeds[0])
-            client10.guilds.get("525621262102298647").channels.get("525625778612994057").send(embed2)
-        }
+       
+           
      }
      if(message.channel.id === "445760723247955968")//medium
      {
