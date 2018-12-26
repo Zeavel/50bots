@@ -111,7 +111,7 @@ if(message.channel.id === "497524156250718218")//Reddit
         if(message.author.username === "Jayden's Coin Listing")
         {
             if(message.embeds[0] === undefined)
-            { hook3.
+            { 
                 hook3.send(message.content)
             }
             else
