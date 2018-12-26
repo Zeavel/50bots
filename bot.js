@@ -632,7 +632,7 @@ if(message.channel.id === "497524156250718218")//Reddit
      {
         if(message.embeds[0] === undefined)
         {
-            hook30.send(message.content)
+            hook40.send(message.content)
         }
         else
         {
