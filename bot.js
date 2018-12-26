@@ -191,6 +191,7 @@ if(message.channel.id === "497524156250718218")//Reddit
         }
         else
         {
+            
             var embed2 = new Discord.MessageEmbed(message.embeds[0])
             hook7.send(embed2)
         }
@@ -199,14 +200,25 @@ if(message.channel.id === "497524156250718218")//Reddit
      {
         if(message.embeds[0] === undefined)
         {
+            if(message.content.includes("http"))
+            
             hook8.send(message.content)
         }
         else
         {
-            var embed2 = new Discord.MessageEmbed(message.embeds[0])
-            hook8.send(embed2)
+            if(message.content.includes("http"))
+            {
+                hook8.send(message.content)
+            }
+            else
+            {
+                var embed2 = new Discord.MessageEmbed(message.embeds[0])
+                hook8.send(embed2)
+            }
+           
         }
      }
+   
      if(message.channel.id === "448387129597231114")//priceswing
      {
         if(message.author.username === "Price Increase")
@@ -500,8 +512,16 @@ if(message.channel.id === "497524156250718218")//Reddit
         }
         else
         {
-            var embed2 = new Discord.MessageEmbed(message.embeds[0])
+            if(message.content.includes("http"))
+            {
+                hook32.send(message.content)
+            }
+            else
+            {
+                  var embed2 = new Discord.MessageEmbed(message.embeds[0])
             hook32.send(embed2)
+            }
+          
         }
      }
      if(message.channel.id === "514194512382525440")//monkry
@@ -548,8 +568,16 @@ if(message.channel.id === "497524156250718218")//Reddit
         }
         else
         {
-            var embed2 = new Discord.MessageEmbed(message.embeds[0])
+            if(message.content.includes("http"))
+            {
+                hook36.send(message.content)
+            }
+            else
+            {
+                var embed2 = new Discord.MessageEmbed(message.embeds[0])
             hook36.send(embed2)
+            }
+            
         }
      }
      if(message.channel.id === "457239616123043840")//sky
@@ -604,7 +632,7 @@ if(message.channel.id === "497524156250718218")//Reddit
      {
         if(message.embeds[0] === undefined)
         {
-            hook40.send(message.content)
+            hook30.send(message.content)
         }
         else
         {
