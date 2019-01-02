@@ -104,9 +104,9 @@ function hasRole(mem, role)
                
                 }
                 
-                bot.setInterval(
-                    sec()
-                     ,60000)
+        setInterval(sec(),60000)
+                    
+                     
          })
 client.on('message', message => {
  if(message.channel.parent.name.includes("Media / News")) 
