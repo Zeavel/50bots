@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const bot = new Discord.Client();
 const CC = require('./command_create.js');
 const Command = CC.Command;
 const hook1 = new Discord.WebhookClient('527267397611028511', process.env.HOOK1);//TheBlock
@@ -47,6 +48,7 @@ const hook40 = new Discord.WebhookClient('527275939453861899', process.env.HOOK4
 const hook41 = new Discord.WebhookClient('527276497959125013', process.env.HOOK41);//sky
 
 
+
 var Commandss = new CC.Commands();
 var fs = require("fs");
 
@@ -72,8 +74,37 @@ function hasRole(mem, role)
         return false;
     }
 }
-
-
+function sec() {
+    bot.guilds.get('525621262102298647').channels.get('529815449396051980').fetchMessage("529817547843829760")
+    .then(msg => {
+        var slova = msg.content
+        if(slova.includes(","))
+        {
+            var users = slova.split(",")
+            for(i=0;i<users.length;i++)
+            {
+                var split = users[i].split(":")
+                var user = split[0]
+                var time = split[1]
+                var data = new Date().getTime()
+                var temp = user+":"+time+","
+                if(time<data)
+                {
+                   bot.guilds.get('525621262102298647').members.get(user[i]).removeRole("525692857357697024")
+                    msg.edit(slova.replace(temp, "".trim()))
+                }
+               
+            }
+        }
+        
+    })
+  
+   
+    }
+    
+    bot.setInterval(
+        sec()
+         ,60000)
 client.on('message', message => {
  if(message.channel.parent.name.includes("Media / News")) 
  {
@@ -644,3 +675,4 @@ if(message.channel.id === "497524156250718218")//Reddit
   });
 
 client.login(process.env.BOT_TOKEN);
+bot.login(process.env.BOT_KYTE);
