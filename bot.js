@@ -74,37 +74,40 @@ function hasRole(mem, role)
         return false;
     }
 }
-function sec() {
-    bot.guilds.get('525621262102298647').channels.get('529815449396051980').fetchMessage("529817547843829760")
-    .then(msg => {
-        var slova = msg.content
-        if(slova.includes(","))
-        {
-            var users = slova.split(",")
-            for(i=0;i<users.length;i++)
-            {
-                var split = users[i].split(":")
-                var user = split[0]
-                var time = split[1]
-                var data = new Date().getTime()
-                var temp = user+":"+time+","
-                if(time<data)
-                {
-                   bot.guilds.get('525621262102298647').members.get(user[i]).removeRole("525692857357697024")
-                    msg.edit(slova.replace(temp, "".trim()))
-                }
+
+         bot.on("ready", r=>{ 
+            function sec() {
+                bot.guilds.get('525621262102298647').channels.get('529815449396051980').fetchMessage("529817547843829760")
+                .then(msg => {
+                    var slova = msg.content
+                    if(slova.includes(","))
+                    {
+                        var users = slova.split(",")
+                        for(i=0;i<users.length;i++)
+                        {
+                            var split = users[i].split(":")
+                            var user = split[0]
+                            var time = split[1]
+                            var data = new Date().getTime()
+                            var temp = user+":"+time+","
+                            if(time<data)
+                            {
+                               bot.guilds.get('525621262102298647').members.get(user[i]).removeRole("525692857357697024")
+                                msg.edit(slova.replace(temp, "".trim()))
+                            }
+                           
+                        }
+                    }
+                    
+                })
+              
                
-            }
-        }
-        
-    })
-  
-   
-    }
-    
-    bot.setInterval(
-        sec()
-         ,60000)
+                }
+                
+                bot.setInterval(
+                    sec()
+                     ,60000)
+         })
 client.on('message', message => {
  if(message.channel.parent.name.includes("Media / News")) 
  {
