@@ -75,7 +75,7 @@ function hasRole(mem, role)
     }
 }
 
-         bot.on("ready", r=>{ 
+bot.on("ready", r=>{ 
             function sec() {
                 bot.guilds.get('525621262102298647').channels.get('529815449396051980').fetchMessage("529817547843829760")
                 .then(msg => {
@@ -104,7 +104,7 @@ function hasRole(mem, role)
                
                 }
                 
-        setInterval(sec(),60000)
+        setInterval(sec,60000)
                     
                      
          })
