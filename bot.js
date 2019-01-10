@@ -77,7 +77,7 @@ function hasRole(mem, role)
 
 bot.on("ready", r=>{ 
             function sec() {
-                bot.guilds.get('525621262102298647').channels.get('529815449396051980').fetchMessage("532975632012017691")
+                bot.guilds.get('525621262102298647').channels.get('532960863645204495').fetchMessage("532975632012017691")
                 .then(msg => {
                     var slova = msg.content
                     if(slova.includes(","))
