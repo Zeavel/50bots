@@ -89,10 +89,11 @@ bot.on("ready", r=>{
                             var user = split[0]
                             var time = split[1]
                             var data = new Date().getTime()
-                            var temp = user+":"+time+","
+                            var temp;
+                  
                             if(time<data)
                             {
-                               bot.guilds.get('525621262102298647').members.get(user[i]).removeRole("525692857357697024")
+                               bot.guilds.get('525621262102298647').members.get(user).removeRole("525692857357697024")
                                 msg.edit(slova.replace(temp, "".trim()))
                             }
                            
