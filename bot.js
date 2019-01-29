@@ -93,7 +93,7 @@ bot.on("ready", r=>{
                   
                             if(time<data)
                             {
-                                console.log(user +" " +time
+                                console.log(user +" " +time)
                                bot.guilds.get('525621262102298647').members.get(user).removeRole("525692857357697024")
                                 msg.edit(slova.replace(temp, "".trim()))
                             }
