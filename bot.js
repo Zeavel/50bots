@@ -89,7 +89,7 @@ bot.on("ready", r=>{
                             var user = split[0]
                             var time = split[1]
                             var data = new Date().getTime()
-                            var temp;
+                            var temp = user +":"+time+","
                   
                             if(time<data)
                             {
