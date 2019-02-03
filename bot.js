@@ -85,6 +85,7 @@ bot.on("ready", r=>{
                         var users = slova.split(",")
                         for(i=0;i<users.length;i++)
                         {
+                            console.log(slova.slice(1, -1))
                             var splite = users[i].split(":")
                             var user = splite[0].replace(/[ ]/g,"").trim()
                             var time = splite[1].replace(/[ ]/g,"").trim()
@@ -98,7 +99,7 @@ bot.on("ready", r=>{
                             {
                              temp = user +":"+time+","   
                             }
-                            console.log(slova.slice(1, -1))
+                            
                             if(time<data)
                             {
                                 console.log(bot.guilds.get('525621262102298647').members.get(user))
