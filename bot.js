@@ -85,12 +85,12 @@ bot.on("ready", r=>{
                         var users = slova.split(",")
                         for(i=0;i<users.length;i++)
                         {
-                            var split = users[i].split(":")
-                            var user = split[0]
-                            var time = split[1]
+                            var splite = users[i].split(":")
+                            var user = splite[0]
+                            var time = splite[1]
                             var data = new Date().getTime()
                             var temp = user +":"+time+","
-                  
+                            console.log("/"+user+":"+time+"/")
                             if(time<data)
                             {
                                 console.log(bot.guilds.get('525621262102298647').members.get(user))
