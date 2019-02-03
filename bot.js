@@ -86,8 +86,8 @@ bot.on("ready", r=>{
                         for(i=0;i<users.length;i++)
                         {
                             var splite = users[i].split(":")
-                            var user = splite[0]
-                            var time = splite[1]
+                            var user = splite[0].replace(/[ ]/g,"").trim()
+                            var time = splite[1].replace(/[ ]/g,"").trim()
                             var data = new Date().getTime()
                             var temp = user +":"+time+","
                             console.log("/"+user+":"+time+"/")
