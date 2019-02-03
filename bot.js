@@ -85,7 +85,7 @@ bot.on("ready", r=>{
                         var users = slova.split(",")
                         for(i=0;i<users.length;i++)
                         {
-                            console.log(slova.slice(1, -1))
+                            console.log(slova.slice(0, -1))
                             if(!users[i].includes(":"))
                             {
                                  msg.edit(slova.replace(slova, slova.slice(1, -1)))
