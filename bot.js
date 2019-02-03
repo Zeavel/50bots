@@ -86,7 +86,13 @@ bot.on("ready", r=>{
                         for(i=0;i<users.length;i++)
                         {
                             console.log(slova.slice(1, -1))
-                            var splite = users[i].split(":")
+                            if(!users[i].includes(":"))
+                            {
+                                 msg.edit(slova.replace(slova, slova.slice(1, -1)))
+                            }
+                            else
+                            {
+                                  var splite = users[i].split(":")
                             var user = splite[0].replace(/[ ]/g,"").trim()
                             var time = splite[1].replace(/[ ]/g,"").trim()
                             var data = new Date().getTime()
@@ -106,6 +112,8 @@ bot.on("ready", r=>{
                                bot.guilds.get('525621262102298647').members.get(user).removeRole("525692857357697024")
                                 msg.edit(slova.replace(temp, "".trim()))
                             }
+                            }
+                          
                            
                         }
                     }
