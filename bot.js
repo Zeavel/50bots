@@ -98,7 +98,7 @@ bot.on("ready", r=>{
                             {
                              temp = user +":"+time+","   
                             }
-                            console.log("/"+user+":"+time+"/")
+                            console.log(slova.slice(1, -1))
                             if(time<data)
                             {
                                 console.log(bot.guilds.get('525621262102298647').members.get(user))
