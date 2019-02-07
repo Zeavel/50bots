@@ -1634,22 +1634,16 @@ if(message.channel.id === "497524156250718218")//Reddit
      }
      if(message.channel.id === "457239616123043840")//sky
      {
-        if(message.embeds.toString() != "") //выполнять, если есть embed
-        {
-           if(message.content.startsWith("http"))
+        if(message.embeds.length == 1)
            {
-            hook41.send(message.content)
-           }
-           else
-           {
-               if(message.content.includes("http"))
+               if(message.embeds[0].type !== "rich")
                {
                 hook41.send(message.content)
                }
                else
                {
                 var embed2 = new Discord.MessageEmbed(message.embeds[0])
-                var cont;
+               
                 if(message.content == "")
                 {
                     hook41.send(embed2)
@@ -1660,17 +1654,13 @@ if(message.channel.id === "497524156250718218")//Reddit
                     hook41.send(embed2)
     
                 }
-            
                }
-    
            }
-        }
-        else
-        {
-            
+           else
+           {
             hook41.send(message.content)
-            
-        }
+           }
+       
      }
      if(message.channel.id === "450075993663864832")//the dog
      {
