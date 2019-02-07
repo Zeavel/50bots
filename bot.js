@@ -388,22 +388,16 @@ if(message.channel.id === "497524156250718218")//Reddit
      }
      if(message.channel.id === "521976199799504896")//minor
      {
-        if(message.embeds.toString() != "") //выполнять, если есть embed
-        {
-           if(message.content.startsWith("http"))
+        if(message.embeds.length == 1)
            {
-            hook5.send(message.content)
-           }
-           else
-           {
-               if(message.content.includes("http"))
+               if(message.embeds[0].type !== "rich")
                {
                 hook5.send(message.content)
                }
                else
                {
                 var embed2 = new Discord.MessageEmbed(message.embeds[0])
-                var cont;
+               
                 if(message.content == "")
                 {
                     hook5.send(embed2)
@@ -414,17 +408,13 @@ if(message.channel.id === "497524156250718218")//Reddit
                     hook5.send(embed2)
     
                 }
-            
                }
-    
            }
-        }
-        else
-        {
-            
+           else
+           {
             hook5.send(message.content)
-            
-        }
+           }
+       
      }
      if(message.channel.id==="443846217206726666")//twitter
      {
