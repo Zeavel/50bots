@@ -46,6 +46,7 @@ const hook38 = new Discord.WebhookClient('532973276604137472', process.env.HOOK3
 const hook39 = new Discord.WebhookClient('532973430291824660', process.env.HOOK39);//yoc
 const hook40 = new Discord.WebhookClient('532973571115450378', process.env.HOOK40);//zc
 const hook41 = new Discord.WebhookClient('532973694658805780', process.env.HOOK41);//sky
+const hooke = new Discord.WebhookClient('543526892221890560', process.env.HOOKE);//overbought
 
 
 
@@ -670,7 +671,9 @@ if(message.channel.id === "497524156250718218")//Reddit
      }
      if(message.channel.id === "451556208302751744")//algorythm
      {
-        if(message.embeds.toString() != "") //выполнять, если есть embed
+         if(message.author.username === "Jayden Algorithm Trading")
+         {
+                  if(message.embeds.toString() != "") //выполнять, если есть embed
         {
            if(message.content.startsWith("http"))
            {
@@ -707,6 +710,47 @@ if(message.channel.id === "497524156250718218")//Reddit
             hook13.send(message.content)
             
         }
+         }
+    if(message.author.username === "Overbought")
+         {
+             if(message.embeds.toString() != "") //выполнять, если есть embed
+        {
+           if(message.content.startsWith("http"))
+           {
+            hooke.send(message.content)
+           }
+           else
+           {
+               if(message.content.includes("http"))
+               {
+                hooke.send(message.content)
+               }
+               else
+               {
+                var embed2 = new Discord.MessageEmbed(message.embeds[0])
+                var cont;
+                if(message.content == "")
+                {
+                    hooke.send(embed2)
+                }
+                else
+                {
+                    hooke.send(message.content)
+                    hooke.send(embed2)
+    
+                }
+            
+               }
+    
+           }
+        }
+        else
+        {
+            
+            hooke.send(message.content)
+            
+        }
+         }
      }
      if(message.channel.id === "452675762475106316")//bounce
      {
