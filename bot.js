@@ -54,7 +54,7 @@ const slime_calls = new Discord.WebhookClient('580339917729693735', process.env.
 const yocrypto = new Discord.WebhookClient('580339917742407681', process.env.YO_CRYPTO_BACKUP);//--
 const ninja = new Discord.WebhookClient('580339917754728449', process.env.NINJA);//-
 const wolfpack_alts = new Discord.WebhookClient('580339917771767809', process.env.WOLFPACK_ALTS);//-
-const cryptocue_backup = new Discord.WebhookClient('580339917784088578', process.env.CRYPTOCUE_BAKCUP);//-
+const cryptocue = new Discord.WebhookClient('580339917784088578', process.env.CRYPTOCUE_BAKCUP);//-
 const alan_masters = new Discord.WebhookClient('580339917805191179', process.env.ALAN_MASTERS);//--
 const cc_insiders = new Discord.WebhookClient('580339917813710848', process.env.CC_INSIDERS_BACKUP);//--
 const cryptomist = new Discord.WebhookClient('580339917821968409', process.env.CRYPTOMIST);//-
@@ -72,7 +72,7 @@ const cryptocoins = new Discord.WebhookClient('580339918044135425', process.env.
 const crypto_picasso = new Discord.WebhookClient('580339918056849418', process.env.CRYPTO_PICASSO);//-
 const trading_crypto_coach = new Discord.WebhookClient('580339918056980500', process.env.TRADING_CRYPTO_COACH);//
 const ibc = new Discord.WebhookClient('580339918086340609', process.env.IBC);//
-const bitqueen_backup = new Discord.WebhookClient('580339918090403850', process.env.BITQUEEN_BACKUP);//-
+const bitqueen = new Discord.WebhookClient('580339918090403850', process.env.BITQUEEN_BACKUP);//-
 const antimex = new Discord.WebhookClient('580339918098923520', process.env.ANTIMEX);//-
 const cryptochoe = new Discord.WebhookClient('580339918111375370', process.env.CRYPTOCHOE);//--
 const crypo_addicts_margin = new Discord.WebhookClient('580339918119763968', process.env.CRYPO_ADDICTS_MARGIN);//L-
@@ -80,7 +80,7 @@ const crypto_signals_premium = new Discord.WebhookClient('580339918132346880', p
 const rose_alt = new Discord.WebhookClient('580339918136541185', process.env.ROSE_ALT);//-
 const rats_premium_signals = new Discord.WebhookClient('580339918136541214', process.env.RATS_PREMIUM_SIGNALS_BACKUP);//-
 const klondike_margin = new Discord.WebhookClient('580339918140604429', process.env.KLONDIKE_MARGIN);//
-const skyrock_signals_backup = new Discord.WebhookClient('580339918144798720', process.env.SKYROCK_SIGNALS_BACKUP);//--
+const skyrock_signals = new Discord.WebhookClient('580339918144798720', process.env.SKYROCK_SIGNALS_BACKUP);//--
 const bitmex_calls = new Discord.WebhookClient('580339918144929792', process.env.BITMEX_CALLS);//-
 const max_gains = new Discord.WebhookClient('580339918169964544', process.env.MAX_GAINS);//-
 const btc_syndicate = new Discord.WebhookClient('580339918169964555', process.env.BTC_SYNDICATE);//
@@ -114,7 +114,7 @@ const crypto_addicts_alts = new Discord.WebhookClient('580339926239805450', proc
 const palm_venice_beach = new Discord.WebhookClient('580339926244130836', process.env.PALM_VENICE_BEACH);
 const bravado_margin = new Discord.WebhookClient('580339926256844800', process.env.BRAVADO_MARGIN);
 const vip_crypto_signals = new Discord.WebhookClient('580339926298787840', process.env.VIP_CRYPTO_SIGNALS);
-const zcrypto_backup = new Discord.WebhookClient('580339926315433984', process.env.ZCRYPTO_BACKUP);
+const zcrypto = new Discord.WebhookClient('580339926315433984', process.env.ZCRYPTO_BACKUP);
 
 
 
@@ -1941,3326 +1941,695 @@ if(message.channel.id === "497524156250718218")//Reddit
      }
      
 
-
-if(message.channel.id === "573359417752551455")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       margin_whale.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            margin_whale.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            margin_whale.send(embed2)
-           }
-           else
-           {
-            margin_whale.send(message.content)
-            margin_whale.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    margin_whale.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "530787005928308736")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       skyrock_signals_backup.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            skyrock_signals_backup.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            skyrock_signals_backup.send(embed2)
-           }
-           else
-           {
-            skyrock_signals_backup.send(message.content)
-            skyrock_signals_backup.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    skyrock_signals_backup.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "546265620086390784")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       golden_premium.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            golden_premium.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            golden_premium.send(embed2)
-           }
-           else
-           {
-            golden_premium.send(message.content)
-            golden_premium.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    golden_premium.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "570867766488203294")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       info_crypto_signals_bot.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            info_crypto_signals_bot.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            info_crypto_signals_bot.send(embed2)
-           }
-           else
-           {
-            info_crypto_signals_bot.send(message.content)
-            info_crypto_signals_bot.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    info_crypto_signals_bot.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048413270016000")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       crypto_addicts_margin.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            crypto_addicts_margin.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            crypto_addicts_margin.send(embed2)
-           }
-           else
-           {
-            crypto_addicts_margin.send(message.content)
-            crypto_addicts_margin.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    crypto_addicts_margin.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522030659523444736")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       alan_masters.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            alan_masters.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            alan_masters.send(embed2)
-           }
-           else
-           {
-            alan_masters.send(message.content)
-            alan_masters.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    alan_masters.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "546267936948486144")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       cryptochoe.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            cryptochoe.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            cryptochoe.send(embed2)
-           }
-           else
-           {
-            cryptochoe.send(message.content)
-            cryptochoe.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    cryptochoe.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "579660956003467315")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       CryptoNews.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            CryptoNews.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            CryptoNews.send(embed2)
-           }
-           else
-           {
-            CryptoNews.send(message.content)
-            CryptoNews.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    CryptoNews.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "538245155338190859")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       bitmex_saviour.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            bitmex_saviour.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            bitmex_saviour.send(embed2)
-           }
-           else
-           {
-            bitmex_saviour.send(message.content)
-            bitmex_saviour.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    bitmex_saviour.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "570868375832756227")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       rose_alt.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            rose_alt.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            rose_alt.send(embed2)
-           }
-           else
-           {
-            rose_alt.send(message.content)
-            rose_alt.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    rose_alt.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048802840903680")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       whale_tank.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            whale_tank.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            whale_tank.send(embed2)
-           }
-           else
-           {
-            whale_tank.send(message.content)
-            whale_tank.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    whale_tank.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "527751646428528640")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       btc_syndicate.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            btc_syndicate.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            btc_syndicate.send(embed2)
-           }
-           else
-           {
-            btc_syndicate.send(message.content)
-            btc_syndicate.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    btc_syndicate.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "527753235079888909")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       bitmex_calls.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            bitmex_calls.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            bitmex_calls.send(embed2)
-           }
-           else
-           {
-            bitmex_calls.send(message.content)
-            bitmex_calls.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    bitmex_calls.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "527752256603291648")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       max_gains.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            max_gains.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            max_gains.send(embed2)
-           }
-           else
-           {
-            max_gains.send(message.content)
-            max_gains.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    max_gains.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "537546317623459841")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       MARGIN.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            MARGIN.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            MARGIN.send(embed2)
-           }
-           else
-           {
-            MARGIN.send(message.content)
-            MARGIN.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    MARGIN.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048453459836938")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       trading_crypto_coach.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            trading_crypto_coach.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            trading_crypto_coach.send(embed2)
-           }
-           else
-           {
-            trading_crypto_coach.send(message.content)
-            trading_crypto_coach.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    trading_crypto_coach.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048846793277440")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       zcrypto_backup.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            zcrypto_backup.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            zcrypto_backup.send(embed2)
-           }
-           else
-           {
-            zcrypto_backup.send(message.content)
-            zcrypto_backup.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    zcrypto_backup.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048731231813634")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       paidadvisory.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            paidadvisory.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            paidadvisory.send(embed2)
-           }
-           else
-           {
-            paidadvisory.send(message.content)
-            paidadvisory.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    paidadvisory.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "537545855650103296")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       rats_premium_signals.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            rats_premium_signals.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            rats_premium_signals.send(embed2)
-           }
-           else
-           {
-            rats_premium_signals.send(message.content)
-            rats_premium_signals.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    rats_premium_signals.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522315710228070413")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       cc_insiders.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            cc_insiders.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            cc_insiders.send(embed2)
-           }
-           else
-           {
-            cc_insiders.send(message.content)
-            cc_insiders.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    cc_insiders.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048501358526464")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       cryptomedics.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            cryptomedics.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            cryptomedics.send(embed2)
-           }
-           else
-           {
-            cryptomedics.send(message.content)
-            cryptomedics.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    cryptomedics.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048358857310209")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       bravado_trades.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            bravado_trades.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            bravado_trades.send(embed2)
-           }
-           else
-           {
-            bravado_trades.send(message.content)
-            bravado_trades.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    bravado_trades.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "546265709886439454")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       ibc.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            ibc.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            ibc.send(embed2)
-           }
-           else
-           {
-            ibc.send(message.content)
-            ibc.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    ibc.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "537547048120221696")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       wolf_pack_margin.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            wolf_pack_margin.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            wolf_pack_margin.send(embed2)
-           }
-           else
-           {
-            wolf_pack_margin.send(message.content)
-            wolf_pack_margin.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    wolf_pack_margin.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522309385628942336")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       welcome.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            welcome.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            welcome.send(embed2)
-           }
-           else
-           {
-            welcome.send(message.content)
-            welcome.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    welcome.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "537880923731918884")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       bitmex_wizard.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            bitmex_wizard.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            bitmex_wizard.send(embed2)
-           }
-           else
-           {
-            bitmex_wizard.send(message.content)
-            bitmex_wizard.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    bitmex_wizard.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522148320702103558")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       WELCOME.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            WELCOME.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            WELCOME.send(embed2)
-           }
-           else
-           {
-            WELCOME.send(message.content)
-            WELCOME.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    WELCOME.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "541631650677653520")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       free_books.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            free_books.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            free_books.send(embed2)
-           }
-           else
-           {
-            free_books.send(message.content)
-            free_books.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    free_books.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "537546037552873483")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       wolfpack_alts.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            wolfpack_alts.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            wolfpack_alts.send(embed2)
-           }
-           else
-           {
-            wolfpack_alts.send(message.content)
-            wolfpack_alts.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    wolfpack_alts.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "570868032700809217")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       zephyr_crypto.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            zephyr_crypto.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            zephyr_crypto.send(embed2)
-           }
-           else
-           {
-            zephyr_crypto.send(message.content)
-            zephyr_crypto.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    zephyr_crypto.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048515418095637")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       cryptomist.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            cryptomist.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            cryptomist.send(embed2)
-           }
-           else
-           {
-            cryptomist.send(message.content)
-            cryptomist.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    cryptomist.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "537544244051836948")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       antimex.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            antimex.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            antimex.send(embed2)
-           }
-           else
-           {
-            antimex.send(message.content)
-            antimex.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    antimex.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "571593899466948618")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       dz871.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            dz871.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            dz871.send(embed2)
-           }
-           else
-           {
-            dz871.send(message.content)
-            dz871.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    dz871.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "537544583043874816")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       klondike_margin.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            klondike_margin.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            klondike_margin.send(embed2)
-           }
-           else
-           {
-            klondike_margin.send(message.content)
-            klondike_margin.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    klondike_margin.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "579661080876417051")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       crypto_panic.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            crypto_panic.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            crypto_panic.send(embed2)
-           }
-           else
-           {
-            crypto_panic.send(message.content)
-            crypto_panic.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    crypto_panic.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048774923747330")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       premium_signals.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            premium_signals.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            premium_signals.send(embed2)
-           }
-           else
-           {
-            premium_signals.send(message.content)
-            premium_signals.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    premium_signals.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "545265800248950784")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       bps.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            bps.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            bps.send(embed2)
-           }
-           else
-           {
-            bps.send(message.content)
-            bps.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    bps.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048427396300801")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       crypto_birb.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            crypto_birb.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            crypto_birb.send(embed2)
-           }
-           else
-           {
-            crypto_birb.send(message.content)
-            crypto_birb.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    crypto_birb.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "570868562630279169")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       wiz_scalps.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            wiz_scalps.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            wiz_scalps.send(embed2)
-           }
-           else
-           {
-            wiz_scalps.send(message.content)
-            wiz_scalps.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    wiz_scalps.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048297444048923")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       alt_masters.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            alt_masters.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            alt_masters.send(embed2)
-           }
-           else
-           {
-            alt_masters.send(message.content)
-            alt_masters.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    alt_masters.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048617360523274")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       dog_pound.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            dog_pound.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            dog_pound.send(embed2)
-           }
-           else
-           {
-            dog_pound.send(message.content)
-            dog_pound.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    dog_pound.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "542043499374051333")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       new_people.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            new_people.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            new_people.send(embed2)
-           }
-           else
-           {
-            new_people.send(message.content)
-            new_people.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    new_people.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "537879683400859668")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       oriental_whales.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            oriental_whales.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            oriental_whales.send(embed2)
-           }
-           else
-           {
-            oriental_whales.send(message.content)
-            oriental_whales.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    oriental_whales.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522030546042486785")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       MAIN.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            MAIN.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            MAIN.send(embed2)
-           }
-           else
-           {
-            MAIN.send(message.content)
-            MAIN.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    MAIN.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048685614563328")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       krs_paid.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            krs_paid.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            krs_paid.send(embed2)
-           }
-           else
-           {
-            krs_paid.send(message.content)
-            krs_paid.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    krs_paid.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "527754330514784257")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       news.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            news.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            news.send(embed2)
-           }
-           else
-           {
-            news.send(message.content)
-            news.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    news.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "546265653724577802")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       vip_crypto_signals.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            vip_crypto_signals.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            vip_crypto_signals.send(embed2)
-           }
-           else
-           {
-            vip_crypto_signals.send(message.content)
-            vip_crypto_signals.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    vip_crypto_signals.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048715683266580")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       ninja.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            ninja.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            ninja.send(embed2)
-           }
-           else
-           {
-            ninja.send(message.content)
-            ninja.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    ninja.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "537548125561159680")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       klondile_alts.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            klondile_alts.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            klondile_alts.send(embed2)
-           }
-           else
-           {
-            klondile_alts.send(message.content)
-            klondile_alts.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    klondile_alts.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "538245950812979200")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       alts_saviour.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            alts_saviour.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            alts_saviour.send(embed2)
-           }
-           else
-           {
-            alts_saviour.send(message.content)
-            alts_saviour.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    alts_saviour.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "570868261575458827")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       binance_vip.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            binance_vip.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            binance_vip.send(embed2)
-           }
-           else
-           {
-            binance_vip.send(message.content)
-            binance_vip.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    binance_vip.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "537545517995917317")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       fatpig_vip.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            fatpig_vip.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            fatpig_vip.send(embed2)
-           }
-           else
-           {
-            fatpig_vip.send(message.content)
-            fatpig_vip.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    fatpig_vip.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "543841447078789171")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       info_crypto_signals.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            info_crypto_signals.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            info_crypto_signals.send(embed2)
-           }
-           else
-           {
-            info_crypto_signals.send(message.content)
-            info_crypto_signals.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    info_crypto_signals.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "527750447004385290")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       cryptocue_backup.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            cryptocue_backup.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            cryptocue_backup.send(embed2)
-           }
-           else
-           {
-            cryptocue_backup.send(message.content)
-            cryptocue_backup.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    cryptocue_backup.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048379035975700")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       coin_trading.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            coin_trading.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            coin_trading.send(embed2)
-           }
-           else
-           {
-            coin_trading.send(message.content)
-            coin_trading.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    coin_trading.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "537548195274686479")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       kia_vip.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            kia_vip.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            kia_vip.send(embed2)
-           }
-           else
-           {
-            kia_vip.send(message.content)
-            kia_vip.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    kia_vip.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "571593845972664320")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       ozelcup_vip.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            ozelcup_vip.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            ozelcup_vip.send(embed2)
-           }
-           else
-           {
-            ozelcup_vip.send(message.content)
-            ozelcup_vip.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    ozelcup_vip.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "537548457834184704")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       coinscoach.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            coinscoach.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            coinscoach.send(embed2)
-           }
-           else
-           {
-            coinscoach.send(message.content)
-            coinscoach.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    coinscoach.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522148388171677727")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       results.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            results.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            results.send(embed2)
-           }
-           else
-           {
-            results.send(message.content)
-            results.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    results.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048815323283457")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       whales_crypto_vip.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            whales_crypto_vip.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            whales_crypto_vip.send(embed2)
-           }
-           else
-           {
-            whales_crypto_vip.send(message.content)
-            whales_crypto_vip.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    whales_crypto_vip.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "552932816208527371")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       jeekis.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            jeekis.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            jeekis.send(embed2)
-           }
-           else
-           {
-            jeekis.send(message.content)
-            jeekis.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    jeekis.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048485432885260")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       cryptocoins.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            cryptocoins.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            cryptocoins.send(embed2)
-           }
-           else
-           {
-            cryptocoins.send(message.content)
-            cryptocoins.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    cryptocoins.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048761531465748")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       palm_venice_beach.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            palm_venice_beach.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            palm_venice_beach.send(embed2)
-           }
-           else
-           {
-            palm_venice_beach.send(message.content)
-            palm_venice_beach.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    palm_venice_beach.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "537546179127279617")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       slime_calls.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            slime_calls.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            slime_calls.send(embed2)
-           }
-           else
-           {
-            slime_calls.send(message.content)
-            slime_calls.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    slime_calls.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "540460629815984138")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       bitmex_lifestyle.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            bitmex_lifestyle.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            bitmex_lifestyle.send(embed2)
-           }
-           else
-           {
-            bitmex_lifestyle.send(message.content)
-            bitmex_lifestyle.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    bitmex_lifestyle.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "571598031707701251")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       bitmex_experts.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            bitmex_experts.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            bitmex_experts.send(embed2)
-           }
-           else
-           {
-            bitmex_experts.send(message.content)
-            bitmex_experts.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    bitmex_experts.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "537545690000130058")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       insiders_club.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            insiders_club.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            insiders_club.send(embed2)
-           }
-           else
-           {
-            insiders_club.send(message.content)
-            insiders_club.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    insiders_club.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048392399159297")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       credible_crypto.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            credible_crypto.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            credible_crypto.send(embed2)
-           }
-           else
-           {
-            credible_crypto.send(message.content)
-            credible_crypto.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    credible_crypto.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048664412094503")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       crypto_kirby.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            crypto_kirby.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            crypto_kirby.send(embed2)
-           }
-           else
-           {
-            crypto_kirby.send(message.content)
-            crypto_kirby.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    crypto_kirby.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048344793808896")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       bounce_bot.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            bounce_bot.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            bounce_bot.send(embed2)
-           }
-           else
-           {
-            bounce_bot.send(message.content)
-            bounce_bot.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    bounce_bot.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048473076334592")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       crypto_vip_zone.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            crypto_vip_zone.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            crypto_vip_zone.send(embed2)
-           }
-           else
-           {
-            crypto_vip_zone.send(message.content)
-            crypto_vip_zone.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    crypto_vip_zone.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "537546994663686175")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       crypto_addicts_alts.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            crypto_addicts_alts.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            crypto_addicts_alts.send(embed2)
-           }
-           else
-           {
-            crypto_addicts_alts.send(message.content)
-            crypto_addicts_alts.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    crypto_addicts_alts.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048833383825409")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       yocrypto.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            yocrypto.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            yocrypto.send(embed2)
-           }
-           else
-           {
-            yocrypto.send(message.content)
-            yocrypto.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    yocrypto.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "537545212537470996")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       crypto_signals_premium_club.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            crypto_signals_premium_club.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            crypto_signals_premium_club.send(embed2)
-           }
-           else
-           {
-            crypto_signals_premium_club.send(message.content)
-            crypto_signals_premium_club.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    crypto_signals_premium_club.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522048440402837514")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       crypto_picasso.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            crypto_picasso.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            crypto_picasso.send(embed2)
-           }
-           else
-           {
-            crypto_picasso.send(message.content)
-            crypto_picasso.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    crypto_picasso.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "522374871221796865")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       blockchain_whispers.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            blockchain_whispers.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            blockchain_whispers.send(embed2)
-           }
-           else
-           {
-            blockchain_whispers.send(message.content)
-            blockchain_whispers.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    blockchain_whispers.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "537548758007676938")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       bravado_margin.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            bravado_margin.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            bravado_margin.send(embed2)
-           }
-           else
-           {
-            bravado_margin.send(message.content)
-            bravado_margin.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    bravado_margin.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "571596651077304339")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       rose_bitmex.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            rose_bitmex.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            rose_bitmex.send(embed2)
-           }
-           else
-           {
-            rose_bitmex.send(message.content)
-            rose_bitmex.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    rose_bitmex.send(message.content)
-
-   }
-}
-
-
-if(message.channel.id === "546265696259276800")//crypp
-{
-   if(message.embeds.toString() != "") //���������, ���� ���� embed
-   {
-      if(message.content.startsWith("http"))
-      {
-       bitqueen_backup.send(message.content)
-      }
-      else
-      {
-          if(message.content.includes("http"))
-          {
-            bitqueen_backup.send(message.content)
-          }
-          else
-          {
-           var embed2 = new Discord.MessageEmbed(message.embeds[0])
-
-           if(message.content == "")
-           {
-            bitqueen_backup.send(embed2)
-           }
-           else
-           {
-            bitqueen_backup.send(message.content)
-            bitqueen_backup.send(embed2)
-
-           }
-
-          }
-
-      }
-   }
-   else
-   {
-
-    bitqueen_backup.send(message.content)
-
-   }
-}
-
-
-
+     if(message.channel.id === "573359417752551455")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         margin_whale.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "530787005928308736")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         skyrock_signals.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "546265620086390784")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         golden_premium.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "570867766488203294")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         info_crypto_signals_bot.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048413270016000")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         crypto_addicts_margin.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522030659523444736")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         alan_masters.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "546267936948486144")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         cryptochoe.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "538245155338190859")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         bitmex_saviour.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "570868375832756227")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         rose_alt.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048802840903680")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         whale_tank.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "527751646428528640")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         btc_syndicate.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "527753235079888909")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         bitmex_calls.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "527752256603291648")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         max_gains.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048453459836938")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         trading_crypto_coach.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048846793277440")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         zcrypto.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048731231813634")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         paidadvisory.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "537545855650103296")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         rats_premium_signals.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522315710228070413")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         cc_insiders.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048501358526464")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         cryptomedics.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048358857310209")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         bravado_trades.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "546265709886439454")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         ibc.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "537547048120221696")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         wolf_pack_margin.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "537880923731918884")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         bitmex_wizard.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "537546037552873483")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         wolfpack_alts.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "570868032700809217")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         zephyr_crypto.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048515418095637")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         cryptomist.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "537544244051836948")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         antimex.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "571593899466948618")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         dz871.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "537544583043874816")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         klondike_margin.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048774923747330")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         premium_signals.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "545265800248950784")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         bps.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048427396300801")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         crypto_birb.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "570868562630279169")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         wiz_scalps.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048297444048923")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         alt_masters.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048617360523274")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         dog_pound.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "537879683400859668")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         oriental_whales.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048685614563328")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         krs_paid.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "546265653724577802")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         vip_crypto_signals.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048715683266580")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         ninja.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "537548125561159680")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         klondile_alts.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "538245950812979200")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         alts_saviour.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "570868261575458827")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         binance_vip.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "537545517995917317")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         fatpig_vip.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "543841447078789171")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         info_crypto_signals.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "527750447004385290")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         cryptocue.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048379035975700")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         coin_trading.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "537548195274686479")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         kia_vip.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "571593845972664320")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         ozelcup_vip.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "537548457834184704")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         coinscoach.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048815323283457")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         whales_crypto_vip.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "552932816208527371")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         jeekis.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048485432885260")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         cryptocoins.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048761531465748")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         palm_venice_beach.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "537546179127279617")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         slime_calls.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "540460629815984138")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         bitmex_lifestyle.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "571598031707701251")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         bitmex_experts.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "537545690000130058")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         insiders_club.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048392399159297")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         credible_crypto.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048664412094503")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         crypto_kirby.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048344793808896")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         bounce_bot.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048473076334592")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         crypto_vip_zone.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "537546994663686175")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         crypto_addicts_alts.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048833383825409")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         yocrypto.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "537545212537470996")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         crypto_signals_premium_club.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522048440402837514")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         crypto_picasso.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "522374871221796865")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         blockchain_whispers.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "537548758007676938")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         bravado_margin.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "571596651077304339")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         rose_bitmex.send(embed2)
+     
+     }
+     
+     
+                    if(message.channel.id === "546265696259276800")//crypp
+     {
+         var embed2 = new Discord.MessageEmbed(message.embeds[0])
+         .setFooter("JURASSICRYPTO")
+     
+         bitqueen.send(embed2)
+     
+     }
+     
    
  }
   });
