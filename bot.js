@@ -81,6 +81,7 @@ const rose_alt = new Discord.WebhookClient('580339918136541185', process.env.ROS
 const rats_premium_signals = new Discord.WebhookClient('580339918136541214', process.env.RATS_PREMIUM_SIGNALS_BACKUP);//-
 const klondike_margin = new Discord.WebhookClient('580339918140604429', process.env.KLONDIKE_MARGIN);//
 const skyrock_signals = new Discord.WebhookClient('580339918144798720', process.env.SKYROCK_SIGNALS_BACKUP);//--
+
 const bitmex_calls = new Discord.WebhookClient('580339918144929792', process.env.BITMEX_CALLS);//-
 const max_gains = new Discord.WebhookClient('580339918169964544', process.env.MAX_GAINS);//-
 const btc_syndicate = new Discord.WebhookClient('580339918169964555', process.env.BTC_SYNDICATE);//
@@ -1939,7 +1940,7 @@ if(message.channel.id === "497524156250718218")//Reddit
             
         }
      }
-     
+    }
 
      if(message.channel.id === "573359417752551455")//crypp
      {
@@ -2631,7 +2632,7 @@ if(message.channel.id === "497524156250718218")//Reddit
      }
      
    
- }
+ 
   });
 
 client.login(process.env.BOT_TOKEN);
