@@ -1945,7 +1945,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     if(message.channel.id === "573359417752551455")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         margin_whale.send(embed2)
     
@@ -1955,7 +1955,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "530787005928308736")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         skyrock_signals.send(embed2)
     
@@ -1965,7 +1965,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "546265620086390784")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         golden_premium.send(embed2)
     
@@ -1975,7 +1975,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "570867766488203294")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         info_crypto_signals_bot.send(embed2)
     
@@ -1985,7 +1985,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048413270016000")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         crypto_addicts_margin.send(embed2)
     
@@ -1995,7 +1995,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522030659523444736")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         alan_masters.send(embed2)
     
@@ -2005,7 +2005,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "546267936948486144")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         cryptochoe.send(embed2)
     
@@ -2015,7 +2015,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "538245155338190859")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         bitmex_saviour.send(embed2)
     
@@ -2025,7 +2025,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "570868375832756227")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         rose_alt.send(embed2)
     
@@ -2035,7 +2035,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048802840903680")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         whale_tank.send(embed2)
     
@@ -2045,7 +2045,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "527751646428528640")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         btc_syndicate.send(embed2)
     
@@ -2055,7 +2055,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "527753235079888909")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         bitmex_calls.send(embed2)
     
@@ -2065,7 +2065,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "527752256603291648")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         max_gains.send(embed2)
     
@@ -2075,7 +2075,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048453459836938")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         trading_crypto_coach.send(embed2)
     
@@ -2085,7 +2085,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048846793277440")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         zcrypto.send(embed2)
     
@@ -2095,7 +2095,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048731231813634")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         paidadvisory.send(embed2)
     
@@ -2105,7 +2105,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "537545855650103296")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         rats_premium_signals.send(embed2)
     
@@ -2115,7 +2115,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522315710228070413")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         cc_insiders.send(embed2)
     
@@ -2125,7 +2125,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048501358526464")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         cryptomedics.send(embed2)
     
@@ -2135,7 +2135,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048358857310209")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         bravado_trades.send(embed2)
     
@@ -2145,7 +2145,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "546265709886439454")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         ibc.send(embed2)
     
@@ -2155,7 +2155,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "537547048120221696")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         wolf_pack_margin.send(embed2)
     
@@ -2165,7 +2165,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "537880923731918884")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         bitmex_wizard.send(embed2)
     
@@ -2175,7 +2175,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "537546037552873483")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         wolfpack_alts.send(embed2)
     
@@ -2185,7 +2185,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "570868032700809217")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         zephyr_crypto.send(embed2)
     
@@ -2195,7 +2195,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048515418095637")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         cryptomist.send(embed2)
     
@@ -2205,7 +2205,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "537544244051836948")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         antimex.send(embed2)
     
@@ -2215,7 +2215,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "571593899466948618")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         dz871.send(embed2)
     
@@ -2225,7 +2225,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "537544583043874816")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         klondike_margin.send(embed2)
     
@@ -2235,7 +2235,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048774923747330")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         premium_signals.send(embed2)
     
@@ -2245,7 +2245,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "545265800248950784")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         bps.send(embed2)
     
@@ -2255,7 +2255,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048427396300801")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         crypto_birb.send(embed2)
     
@@ -2265,7 +2265,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "570868562630279169")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         wiz_scalps.send(embed2)
     
@@ -2275,7 +2275,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048297444048923")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         alt_masters.send(embed2)
     
@@ -2285,7 +2285,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048617360523274")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         dog_pound.send(embed2)
     
@@ -2295,7 +2295,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "537879683400859668")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         oriental_whales.send(embed2)
     
@@ -2305,7 +2305,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048685614563328")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         krs_paid.send(embed2)
     
@@ -2315,7 +2315,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "546265653724577802")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         vip_crypto_signals.send(embed2)
     
@@ -2325,7 +2325,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048715683266580")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         ninja.send(embed2)
     
@@ -2335,7 +2335,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "537548125561159680")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         klondile_alts.send(embed2)
     
@@ -2345,7 +2345,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "538245950812979200")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         alts_saviour.send(embed2)
     
@@ -2355,7 +2355,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "570868261575458827")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         binance_vip.send(embed2)
     
@@ -2365,7 +2365,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "537545517995917317")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         fatpig_vip.send(embed2)
     
@@ -2375,7 +2375,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "543841447078789171")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         info_crypto_signals.send(embed2)
     
@@ -2385,7 +2385,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "527750447004385290")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         cryptocue.send(embed2)
     
@@ -2395,7 +2395,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048379035975700")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         coin_trading.send(embed2)
     
@@ -2405,7 +2405,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "537548195274686479")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         kia_vip.send(embed2)
     
@@ -2415,7 +2415,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "571593845972664320")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         ozelcup_vip.send(embed2)
     
@@ -2425,7 +2425,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "537548457834184704")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         coinscoach.send(embed2)
     
@@ -2435,7 +2435,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048815323283457")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         whales_crypto_vip.send(embed2)
     
@@ -2445,7 +2445,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "552932816208527371")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         jeekis.send(embed2)
     
@@ -2455,7 +2455,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048485432885260")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         cryptocoins.send(embed2)
     
@@ -2465,7 +2465,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048761531465748")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         palm_venice_beach.send(embed2)
     
@@ -2475,7 +2475,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "537546179127279617")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         slime_calls.send(embed2)
     
@@ -2485,7 +2485,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "540460629815984138")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         bitmex_lifestyle.send(embed2)
     
@@ -2495,7 +2495,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "571598031707701251")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         bitmex_experts.send(embed2)
     
@@ -2505,7 +2505,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "537545690000130058")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         insiders_club.send(embed2)
     
@@ -2515,7 +2515,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048392399159297")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         credible_crypto.send(embed2)
     
@@ -2525,7 +2525,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048664412094503")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         crypto_kirby.send(embed2)
     
@@ -2535,7 +2535,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048344793808896")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         bounce_bot.send(embed2)
     
@@ -2545,7 +2545,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048473076334592")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         crypto_vip_zone.send(embed2)
     
@@ -2555,7 +2555,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "537546994663686175")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         crypto_addicts_alts.send(embed2)
     
@@ -2565,7 +2565,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048833383825409")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         yocrypto.send(embed2)
     
@@ -2575,7 +2575,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "537545212537470996")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         crypto_signals_premium_club.send(embed2)
     
@@ -2585,7 +2585,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522048440402837514")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         crypto_picasso.send(embed2)
     
@@ -2595,7 +2595,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "522374871221796865")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         blockchain_whispers.send(embed2)
     
@@ -2605,7 +2605,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "537548758007676938")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         bravado_margin.send(embed2)
     
@@ -2615,7 +2615,7 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "571596651077304339")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         rose_bitmex.send(embed2)
     
@@ -2625,13 +2625,12 @@ if(message.channel.id === "497524156250718218")//Reddit
                    if(message.channel.id === "546265696259276800")//crypp
     {
         var embed2 = new Discord.MessageEmbed(message.embeds[0])
-    
+        console.log(message.embeds[0])
     
         bitqueen.send(embed2)
     
     }
     
- 
   });
 
 client.login(process.env.BOT_TOKEN);
