@@ -1946,7 +1946,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         margin_whale.send(embed2)
     
@@ -1957,7 +1957,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         skyrock_signals.send(embed2)
     
@@ -1968,7 +1968,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         golden_premium.send(embed2)
     
@@ -1979,7 +1979,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         info_crypto_signals_bot.send(embed2)
     
@@ -1990,7 +1990,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         crypto_addicts_margin.send(embed2)
     
@@ -2001,7 +2001,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         alan_masters.send(embed2)
     
@@ -2012,7 +2012,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         cryptochoe.send(embed2)
     
@@ -2023,7 +2023,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         bitmex_saviour.send(embed2)
     
@@ -2034,7 +2034,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         rose_alt.send(embed2)
     
@@ -2045,7 +2045,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         whale_tank.send(embed2)
     
@@ -2056,7 +2056,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         btc_syndicate.send(embed2)
     
@@ -2067,7 +2067,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         bitmex_calls.send(embed2)
     
@@ -2078,7 +2078,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         max_gains.send(embed2)
     
@@ -2089,7 +2089,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         trading_crypto_coach.send(embed2)
     
@@ -2100,7 +2100,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         zcrypto.send(embed2)
     
@@ -2111,7 +2111,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         paidadvisory.send(embed2)
     
@@ -2122,7 +2122,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         rats_premium_signals.send(embed2)
     
@@ -2133,7 +2133,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         cc_insiders.send(embed2)
     
@@ -2144,7 +2144,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         cryptomedics.send(embed2)
     
@@ -2155,7 +2155,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         bravado_trades.send(embed2)
     
@@ -2166,7 +2166,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         ibc.send(embed2)
     
@@ -2177,7 +2177,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         wolf_pack_margin.send(embed2)
     
@@ -2188,7 +2188,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         bitmex_wizard.send(embed2)
     
@@ -2199,7 +2199,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         wolfpack_alts.send(embed2)
     
@@ -2210,7 +2210,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         zephyr_crypto.send(embed2)
     
@@ -2221,7 +2221,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         cryptomist.send(embed2)
     
@@ -2232,7 +2232,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         antimex.send(embed2)
     
@@ -2243,7 +2243,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         dz871.send(embed2)
     
@@ -2254,7 +2254,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         klondike_margin.send(embed2)
     
@@ -2265,7 +2265,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         premium_signals.send(embed2)
     
@@ -2276,7 +2276,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         bps.send(embed2)
     
@@ -2287,7 +2287,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         crypto_birb.send(embed2)
     
@@ -2298,7 +2298,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         wiz_scalps.send(embed2)
     
@@ -2309,7 +2309,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         alt_masters.send(embed2)
     
@@ -2320,7 +2320,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         dog_pound.send(embed2)
     
@@ -2331,7 +2331,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         oriental_whales.send(embed2)
     
@@ -2342,7 +2342,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         krs_paid.send(embed2)
     
@@ -2353,7 +2353,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         vip_crypto_signals.send(embed2)
     
@@ -2364,7 +2364,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         ninja.send(embed2)
     
@@ -2375,7 +2375,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         klondile_alts.send(embed2)
     
@@ -2386,7 +2386,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         alts_saviour.send(embed2)
     
@@ -2397,7 +2397,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         binance_vip.send(embed2)
     
@@ -2408,7 +2408,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         fatpig_vip.send(embed2)
     
@@ -2419,7 +2419,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         info_crypto_signals.send(embed2)
     
@@ -2430,7 +2430,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         cryptocue.send(embed2)
     
@@ -2441,7 +2441,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         coin_trading.send(embed2)
     
@@ -2452,7 +2452,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         kia_vip.send(embed2)
     
@@ -2463,7 +2463,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         ozelcup_vip.send(embed2)
     
@@ -2474,7 +2474,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         coinscoach.send(embed2)
     
@@ -2485,7 +2485,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         whales_crypto_vip.send(embed2)
     
@@ -2496,7 +2496,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         jeekis.send(embed2)
     
@@ -2507,7 +2507,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         cryptocoins.send(embed2)
     
@@ -2518,7 +2518,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         palm_venice_beach.send(embed2)
     
@@ -2529,7 +2529,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         slime_calls.send(embed2)
     
@@ -2540,7 +2540,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         bitmex_lifestyle.send(embed2)
     
@@ -2551,7 +2551,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         bitmex_experts.send(embed2)
     
@@ -2562,7 +2562,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         insiders_club.send(embed2)
     
@@ -2573,7 +2573,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         credible_crypto.send(embed2)
     
@@ -2584,7 +2584,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         crypto_kirby.send(embed2)
     
@@ -2595,7 +2595,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         bounce_bot.send(embed2)
     
@@ -2606,7 +2606,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         crypto_vip_zone.send(embed2)
     
@@ -2617,7 +2617,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         crypto_addicts_alts.send(embed2)
     
@@ -2628,7 +2628,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         yocrypto.send(embed2)
     
@@ -2639,7 +2639,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         crypto_signals_premium_club.send(embed2)
     
@@ -2650,7 +2650,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         crypto_picasso.send(embed2)
     
@@ -2661,7 +2661,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         blockchain_whispers.send(embed2)
     
@@ -2672,7 +2672,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         bravado_margin.send(embed2)
     
@@ -2683,7 +2683,7 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         rose_bitmex.send(embed2)
     
@@ -2694,12 +2694,11 @@ if(message.channel.id === "497524156250718218")//Reddit
     {
         console.log(message.embeds[0])
         var embed2 = new Discord.RichEmbed(message.embeds[0])
-    
+       .setFooter("JURASSICRYPTO")
     
         bitqueen.send(embed2)
     
     }
-    
   });
 
 client.login(process.env.BOT_TOKEN);
