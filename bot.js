@@ -1944,2001 +1944,759 @@ if(message.channel.id === "497524156250718218")//Reddit
 
     if(message.channel.id === "573359417752551455")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                margin_whale.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                margin_whale.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        margin_whale.send(embed2)
     
     }
     
     
                    if(message.channel.id === "530787005928308736")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                skyrock_signals.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                skyrock_signals.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        skyrock_signals.send(embed2)
     
     }
     
     
                    if(message.channel.id === "546265620086390784")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                golden_premium.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                golden_premium.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        golden_premium.send(embed2)
     
     }
     
     
                    if(message.channel.id === "570867766488203294")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                info_crypto_signals_bot.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                info_crypto_signals_bot.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        info_crypto_signals_bot.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048413270016000")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                crypto_addicts_margin.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                crypto_addicts_margin.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        crypto_addicts_margin.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522030659523444736")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                alan_masters.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                alan_masters.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        alan_masters.send(embed2)
     
     }
     
     
                    if(message.channel.id === "546267936948486144")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                cryptochoe.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                cryptochoe.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        cryptochoe.send(embed2)
     
     }
     
     
                    if(message.channel.id === "538245155338190859")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                bitmex_saviour.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                bitmex_saviour.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        bitmex_saviour.send(embed2)
     
     }
     
     
                    if(message.channel.id === "570868375832756227")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                rose_alt.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                rose_alt.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        rose_alt.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048802840903680")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                whale_tank.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                whale_tank.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        whale_tank.send(embed2)
     
     }
     
     
                    if(message.channel.id === "527751646428528640")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                btc_syndicate.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                btc_syndicate.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        btc_syndicate.send(embed2)
     
     }
     
     
                    if(message.channel.id === "527753235079888909")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                bitmex_calls.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                bitmex_calls.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        bitmex_calls.send(embed2)
     
     }
     
     
                    if(message.channel.id === "527752256603291648")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                max_gains.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                max_gains.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        max_gains.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048453459836938")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                trading_crypto_coach.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                trading_crypto_coach.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        trading_crypto_coach.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048846793277440")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                zcrypto.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                zcrypto.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        zcrypto.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048731231813634")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                paidadvisory.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                paidadvisory.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        paidadvisory.send(embed2)
     
     }
     
     
                    if(message.channel.id === "537545855650103296")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                rats_premium_signals.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                rats_premium_signals.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        rats_premium_signals.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522315710228070413")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                cc_insiders.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                cc_insiders.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        cc_insiders.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048501358526464")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                cryptomedics.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                cryptomedics.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        cryptomedics.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048358857310209")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                bravado_trades.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                bravado_trades.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        bravado_trades.send(embed2)
     
     }
     
     
                    if(message.channel.id === "546265709886439454")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                ibc.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                ibc.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        ibc.send(embed2)
     
     }
     
     
                    if(message.channel.id === "537547048120221696")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                wolf_pack_margin.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                wolf_pack_margin.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        wolf_pack_margin.send(embed2)
     
     }
     
     
                    if(message.channel.id === "537880923731918884")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                bitmex_wizard.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                bitmex_wizard.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        bitmex_wizard.send(embed2)
     
     }
     
     
                    if(message.channel.id === "537546037552873483")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                wolfpack_alts.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                wolfpack_alts.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        wolfpack_alts.send(embed2)
     
     }
     
     
                    if(message.channel.id === "570868032700809217")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                zephyr_crypto.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                zephyr_crypto.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        zephyr_crypto.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048515418095637")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                cryptomist.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                cryptomist.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        cryptomist.send(embed2)
     
     }
     
     
                    if(message.channel.id === "537544244051836948")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                antimex.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                antimex.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        antimex.send(embed2)
     
     }
     
     
                    if(message.channel.id === "571593899466948618")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                dz871.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                dz871.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        dz871.send(embed2)
     
     }
     
     
                    if(message.channel.id === "537544583043874816")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                klondike_margin.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                klondike_margin.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        klondike_margin.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048774923747330")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                premium_signals.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                premium_signals.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        premium_signals.send(embed2)
     
     }
     
     
                    if(message.channel.id === "545265800248950784")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                bps.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                bps.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        bps.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048427396300801")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                crypto_birb.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                crypto_birb.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        crypto_birb.send(embed2)
     
     }
     
     
                    if(message.channel.id === "570868562630279169")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                wiz_scalps.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                wiz_scalps.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        wiz_scalps.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048297444048923")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                alt_masters.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                alt_masters.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        alt_masters.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048617360523274")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                dog_pound.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                dog_pound.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        dog_pound.send(embed2)
     
     }
     
     
                    if(message.channel.id === "537879683400859668")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                oriental_whales.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                oriental_whales.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        oriental_whales.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048685614563328")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                krs_paid.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                krs_paid.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        krs_paid.send(embed2)
     
     }
     
     
                    if(message.channel.id === "546265653724577802")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                vip_crypto_signals.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                vip_crypto_signals.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        vip_crypto_signals.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048715683266580")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                ninja.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                ninja.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        ninja.send(embed2)
     
     }
     
     
                    if(message.channel.id === "537548125561159680")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                klondile_alts.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                klondile_alts.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        klondile_alts.send(embed2)
     
     }
     
     
                    if(message.channel.id === "538245950812979200")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                alts_saviour.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                alts_saviour.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        alts_saviour.send(embed2)
     
     }
     
     
                    if(message.channel.id === "570868261575458827")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                binance_vip.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                binance_vip.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        binance_vip.send(embed2)
     
     }
     
     
                    if(message.channel.id === "537545517995917317")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                fatpig_vip.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                fatpig_vip.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        fatpig_vip.send(embed2)
     
     }
     
     
                    if(message.channel.id === "543841447078789171")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                info_crypto_signals.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                info_crypto_signals.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        info_crypto_signals.send(embed2)
     
     }
     
     
                    if(message.channel.id === "527750447004385290")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                cryptocue.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                cryptocue.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        cryptocue.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048379035975700")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                coin_trading.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                coin_trading.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        coin_trading.send(embed2)
     
     }
     
     
                    if(message.channel.id === "537548195274686479")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                kia_vip.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                kia_vip.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        kia_vip.send(embed2)
     
     }
     
     
                    if(message.channel.id === "571593845972664320")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                ozelcup_vip.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                ozelcup_vip.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        ozelcup_vip.send(embed2)
     
     }
     
     
                    if(message.channel.id === "537548457834184704")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                coinscoach.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                coinscoach.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        coinscoach.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048815323283457")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                whales_crypto_vip.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                whales_crypto_vip.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        whales_crypto_vip.send(embed2)
     
     }
     
     
                    if(message.channel.id === "552932816208527371")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                jeekis.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                jeekis.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        jeekis.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048485432885260")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                cryptocoins.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                cryptocoins.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        cryptocoins.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048761531465748")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                palm_venice_beach.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                palm_venice_beach.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        palm_venice_beach.send(embed2)
     
     }
     
     
                    if(message.channel.id === "537546179127279617")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                slime_calls.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                slime_calls.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        slime_calls.send(embed2)
     
     }
     
     
                    if(message.channel.id === "540460629815984138")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                bitmex_lifestyle.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                bitmex_lifestyle.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        bitmex_lifestyle.send(embed2)
     
     }
     
     
                    if(message.channel.id === "571598031707701251")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                bitmex_experts.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                bitmex_experts.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        bitmex_experts.send(embed2)
     
     }
     
     
                    if(message.channel.id === "537545690000130058")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                insiders_club.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                insiders_club.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        insiders_club.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048392399159297")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                credible_crypto.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                credible_crypto.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        credible_crypto.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048664412094503")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                crypto_kirby.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                crypto_kirby.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        crypto_kirby.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048344793808896")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                bounce_bot.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                bounce_bot.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        bounce_bot.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048473076334592")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                crypto_vip_zone.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                crypto_vip_zone.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        crypto_vip_zone.send(embed2)
     
     }
     
     
                    if(message.channel.id === "537546994663686175")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                crypto_addicts_alts.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                crypto_addicts_alts.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        crypto_addicts_alts.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048833383825409")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                yocrypto.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                yocrypto.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        yocrypto.send(embed2)
     
     }
     
     
                    if(message.channel.id === "537545212537470996")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                crypto_signals_premium_club.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                crypto_signals_premium_club.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        crypto_signals_premium_club.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522048440402837514")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                crypto_picasso.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                crypto_picasso.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        crypto_picasso.send(embed2)
     
     }
     
     
                    if(message.channel.id === "522374871221796865")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                blockchain_whispers.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                blockchain_whispers.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        blockchain_whispers.send(embed2)
     
     }
     
     
                    if(message.channel.id === "537548758007676938")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                bravado_margin.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                bravado_margin.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        bravado_margin.send(embed2)
     
     }
     
     
                    if(message.channel.id === "571596651077304339")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                rose_bitmex.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                rose_bitmex.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        rose_bitmex.send(embed2)
     
     }
     
     
                    if(message.channel.id === "546265696259276800")//crypp
     {
-        var text = "";
-            var title = message.embeds[0].title.toString()
-            var field1 = message.embeds[0].fields.map(g=>g.name).toString()
-            var field2 = message.embeds[0].fields.map(g=>g.value).toString()
-            var desc = message.embeds[0].description.toString()
-            var img = message.embeds[0].image.url.toString()
-            if(img == "")
-            {
-                bitqueen.send(title+
-    field1+
-    field2+
-    desc)
-            }
-            else
-            {
-                bitqueen.send(title+
-    field1+
-    field2+
-    desc,{
-                    files: [img]
-                  })
-            }
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
     
+        bitqueen.send(embed2)
     
     }
   });
