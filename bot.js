@@ -2701,11 +2701,43 @@ if(message.channel.id === "497524156250718218")//Reddit
     }
     if(message.channel.id === "578470593746305034")//crypp
     {
-        console.log(message.embeds[0])
-        var embed2 = new Discord.RichEmbed(message.embeds[0])
-       .setFooter("JURASSICRYPTO")
+         if(message.embeds.toString() != "") //���������, ���� ���� embed
+        {
+           if(message.content.startsWith("http"))
+           {
+            mabot.send(message.content)
+           }
+           else
+           {
+               if(message.content.includes("http"))
+               {
+                mabot.send(message.content)
+               }
+               else
+               {
+                var embed2 = new Discord.MessageEmbed(message.embeds[0])
+            
+                if(message.content == "")
+                {
+                    mabot.send(embed2)
+                }
+                else
+                {
+                    mabot.send(message.content)
+                    mabot.send(embed2)
     
-        mabot.send(embed2)
+                }
+            
+               }
+    
+           }
+        }
+        else
+        {
+            
+            mabot.send(message.content)
+            
+        }
     
     }
   });
