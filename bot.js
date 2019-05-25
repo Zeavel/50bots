@@ -116,7 +116,7 @@ const palm_venice_beach = new Discord.WebhookClient('580339926244130836', proces
 const bravado_margin = new Discord.WebhookClient('580339926256844800', process.env.BRAVADO_MARGIN);
 const vip_crypto_signals = new Discord.WebhookClient('580339926298787840', process.env.VIP_CRYPTO_SIGNALS);
 const zcrypto = new Discord.WebhookClient('580339926315433984', process.env.ZCRYPTO_BACKUP);
-
+const mabot = new Discord.WebhookClient('581817566628937729', process.env.MABOT);
 
 
 
@@ -2697,6 +2697,15 @@ if(message.channel.id === "497524156250718218")//Reddit
        .setFooter("JURASSICRYPTO")
     
         bitqueen.send(embed2)
+    
+    }
+    if(message.channel.id === "578470593746305034")//crypp
+    {
+        console.log(message.embeds[0])
+        var embed2 = new Discord.RichEmbed(message.embeds[0])
+       .setFooter("JURASSICRYPTO")
+    
+        mabot.send(embed2)
     
     }
   });
